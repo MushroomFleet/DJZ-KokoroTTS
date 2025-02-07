@@ -1,4 +1,4 @@
-# KokoroTTS Node 🚀
+# Kokoro TTS Node 🚀
 
 This node provides advanced text-to-speech functionality powered by KokoroTTS. Follow the instructions below to install, configure, and use the node within your portable ComfyUI installation.
 
