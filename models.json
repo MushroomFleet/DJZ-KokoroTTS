@@ -1,0 +1,5 @@
+{
+    "model_path": "../../models/kokoro/kokoro-v1.0.onnx",
+    "voices_path": "../../models/kokoro/voices-v1.0.bin"
+   }
+   
