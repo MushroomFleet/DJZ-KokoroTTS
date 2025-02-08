@@ -1,4 +1,4 @@
-# Kokoro TTS Node 🚀
+# KokoroTTS Node 🚀
 
 This node provides advanced text-to-speech functionality powered by KokoroTTS. Follow the instructions below to install, configure, and use the node within your portable ComfyUI installation.
 
@@ -18,8 +18,6 @@ This node provides advanced text-to-speech functionality powered by KokoroTTS. F
 ## Model Setup 🗂️
 
 This node requires two specific models to work correctly.
-- https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
-- https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
 
 - **Required Model Location:**  
   All required models must be placed in the directory:  
@@ -54,6 +52,10 @@ Inside the node, you can adjust various parameters to suit your needs:
 These settings are fully customizable through the node interface within ComfyUI.
 
 ## Conclusion 🎉
+
+Recent Updates:
+- KokoroTTS_v2.py now provides a "default" blending method using a weighted sum approach.
+- KokoroTTS_v3.py introduces Spherical Interpolation blending method for enhanced quality.
 
 The KokoroTTS Node is a robust tool to add state-of-the-art text-to-speech capabilities to your image generation workflows. Follow the above steps to set up and enjoy seamless speech synthesis!
 
