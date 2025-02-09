@@ -1,0 +1,442 @@
+{
+  "last_node_id": 12,
+  "last_link_id": 8,
+  "nodes": [
+    {
+      "id": 6,
+      "type": "KokoroTTS_v1",
+      "pos": [
+        -955.0205688476562,
+        -306.4634094238281
+      ],
+      "size": [
+        347.7749938964844,
+        158.43997192382812
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 5,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            2
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KokoroTTS_v1"
+      },
+      "widgets_values": [
+        "Converts input text to speech audio using custom TTS synthesis",
+        "af_aoede",
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Label (rgthree)",
+      "pos": [
+        -1450,
+        -470
+      ],
+      "size": [
+        1487.59765625,
+        100
+      ],
+      "flags": {
+        "allow_interaction": true
+      },
+      "order": 0,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [],
+      "title": "FiveBelowFive.UK | Drift Johnson",
+      "properties": {
+        "fontSize": 100,
+        "fontFamily": "Arial",
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "backgroundColor": "transparent",
+        "padding": 0,
+        "borderRadius": 0
+      },
+      "color": "#fff0",
+      "bgcolor": "#fff0"
+    },
+    {
+      "id": 9,
+      "type": "ShowText|pysssss",
+      "pos": [
+        -467.08447265625,
+        277.49420166015625
+      ],
+      "size": [
+        452.8962707519531,
+        332.8970947265625
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 4,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "\nOkay, so I'm trying to figure out what art really means. The user mentioned that it's a form of human expression, but I want to dig deeper into that. Maybe I should start by considering different definitions and seeing how they fit together.\n\nArt isn't just painting or sculpture, right? It can be anything creative, like music, dance, literature, even fashion. But why do we consider these things art? Is it because they evoke emotions or communicate ideas? I think it's a mix of both. When you create something, you're probably expressing feelings or thoughts that aren't easily put into words.\n\nI remember reading about the cave paintings in Lasca, which are like 40,000 years old. That makes me wonder, why did ancient people feel the need to depict animals on their walls? Maybe they were telling stories, celebrating victories, or expressing spiritual beliefs. So, art must have been a way for early humans to communicate and share their experiences.\n\nThen there's the concept of beauty. Some art is meant to be visually pleasing, like the statue of David by Michelangelo. But other art, like some Jackson Pollock paintings, might not be about beauty as much as they are about the expression of emotions through color and texture. So, maybe art doesn't have a single purpose; it can serve various functions depending on its form and intent.\n\nI also think about how art has changed over time. In the Renaissance, they focused on realism and symmetry, which was different from the abstract art of the 20th century. This makes me realize that art reflects the cultural and historical contexts of its time. So, what's considered art today might have been seen differently in the past.\n\nThen there's the debate about whether anything can be called art or if it's subjective. For example, a rock pile could be art if someone intends it to be, but without intent, is it still art? This ties into the idea of intentionality and purpose in creating art.\n\nAnother angle is the therapeutic aspect. Art therapy uses creative expression as a means for emotional healing. So, maybe art isn't just about aesthetics or communication; it can also be about personal growth and mental health.\n\nI'm also curious about how different cultures define art. In some societies, traditional arts like calligraphy in Islam are highly valued, while others focus on modern mediums like digital art. This shows that art is diverse and can take many forms across various cultures and times.\n\nFurthermore, there's the concept of originality. Many artists seek to create something unique, but sometimes, as with movements like Abstract Expressionism, the emphasis shifts from technique to the raw, emotional expression of ideas. So, originality isn't a strict requirement, but it's often valued in many art forms.\n\nI should also consider the role of the audience. Art doesn't exist in a vacuum; it's experienced by people who interpret it differently. This subjectivity adds another layer to the definition of art because what one person sees as meaningful or beautiful might not resonate with others.\n\nLastly, thinking about famous artists and their quotes can shed some light. Pablo Picasso said, \"Art is the lie that reveals the truth,\" which suggests that art can be a medium for conveying deeper truths or realities beyond the immediate representation.\n\nPutting all these thoughts together, it seems like art is a multifaceted concept that encompasses a wide range of human activities aimed at expressing emotions, communicating ideas, and reflecting cultural values. It's subjective, diverse, and ever-evolving, making it one of the most dynamic aspects of human life.\n"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "ThinkSeeker",
+      "pos": [
+        -981.3895874023438,
+        276.1831970214844
+      ],
+      "size": [
+        210,
+        66
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 3,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            4
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            5,
+            8
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ThinkSeeker"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 12,
+      "type": "Label (rgthree)",
+      "pos": [
+        -571.3724365234375,
+        132.6463623046875
+      ],
+      "size": [
+        555.6640625,
+        100
+      ],
+      "flags": {
+        "allow_interaction": true
+      },
+      "order": 1,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [],
+      "title": "From ollama",
+      "properties": {
+        "fontSize": 100,
+        "fontFamily": "Arial",
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "backgroundColor": "transparent",
+        "padding": 0,
+        "borderRadius": 0
+      },
+      "color": "#fff0",
+      "bgcolor": "#fff0"
+    },
+    {
+      "id": 11,
+      "type": "ShowText|pysssss",
+      "pos": [
+        -463.54498291015625,
+        659.650634765625
+      ],
+      "size": [
+        453.4415283203125,
+        56.557899475097656
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 8,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 4,
+      "type": "Label (rgthree)",
+      "pos": [
+        -1450,
+        -630
+      ],
+      "size": [
+        1408.6669921875,
+        150
+      ],
+      "flags": {
+        "allow_interaction": true
+      },
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Kokoro TTS - Ollama",
+      "properties": {
+        "fontSize": 150,
+        "fontFamily": "Arial",
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "backgroundColor": "transparent",
+        "padding": 0,
+        "borderRadius": 0
+      },
+      "color": "#fff0",
+      "bgcolor": "#fff0"
+    },
+    {
+      "id": 7,
+      "type": "OllamaGenerateAdvance",
+      "pos": [
+        -1448.10546875,
+        276.1831359863281
+      ],
+      "size": [
+        400,
+        472.31024169921875
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "context",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "context"
+          },
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "response",
+          "type": "STRING",
+          "links": [
+            3
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "context",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "OllamaGenerateAdvance"
+      },
+      "widgets_values": [
+        "What is Art?",
+        false,
+        "http://127.0.0.1:11434",
+        "deepseek-r1:8b-llama-distill-q8_0",
+        "You are an art expert, gracefully describing your knowledge in art domain.",
+        991161360,
+        "randomize",
+        40,
+        0.9,
+        0.8,
+        -1,
+        1,
+        5,
+        false,
+        "text",
+        ""
+      ]
+    },
+    {
+      "id": 2,
+      "type": "PreviewAudio",
+      "pos": [
+        -534.5266723632812,
+        -306.1759033203125
+      ],
+      "size": [
+        553.6018676757812,
+        152.0379638671875
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 2
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewAudio"
+      },
+      "widgets_values": [
+        null
+      ]
+    },
+    {
+      "id": 5,
+      "type": "Note",
+      "pos": [
+        -1460,
+        -310
+      ],
+      "size": [
+        420.25225830078125,
+        443.2101135253906
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "EXAMPLE-KokoroTTS-Ollama-v10\n\n\nVideo: https://www.youtube.com/@FiveBelowFiveUK\nWorkflow: https://civitai.com/user/driftjohnson\nhttps://www.fivebelowfive.uk\n\n\n\n\n[discord early editions]\nhttps://discord.com/invite/uubQXhwzkj "
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    }
+  ],
+  "links": [
+    [
+      2,
+      6,
+      0,
+      2,
+      0,
+      "AUDIO"
+    ],
+    [
+      3,
+      7,
+      0,
+      8,
+      0,
+      "STRING"
+    ],
+    [
+      4,
+      8,
+      0,
+      9,
+      0,
+      "STRING"
+    ],
+    [
+      5,
+      8,
+      1,
+      6,
+      0,
+      "STRING"
+    ],
+    [
+      8,
+      8,
+      1,
+      11,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 2.3939204936916436,
+      "offset": [
+        1639.4579944754882,
+        428.9530083258212
+      ]
+    },
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0
+  },
+  "version": 0.4
+}
