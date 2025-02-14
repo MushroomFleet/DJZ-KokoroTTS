@@ -1,0 +1,15 @@
+[project]
+name = "djz-kokorotts"
+description = "This node provides advanced text-to-speech functionality powered by KokoroTTS. Follow the instructions below to install, configure, and use the node within your portable ComfyUI installation."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["kokoro-onnx"]
+
+[project.urls]
+Repository = "https://github.com/MushroomFleet/DJZ-KokoroTTS"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "DJZ-KokoroTTS"
+Icon = ""
