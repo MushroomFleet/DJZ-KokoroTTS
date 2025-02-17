@@ -1,4 +1,5 @@
 # KokoroTTS Node 🚀
+![demo-v4](https://raw.githubusercontent.com/MushroomFleet/DJZ-KokoroTTS/refs/heads/main/KokoroTTS_V4.png)
 
 This node provides advanced text-to-speech functionality powered by KokoroTTS. Follow the instructions below to install, configure, and use the node within your portable ComfyUI installation.
 
