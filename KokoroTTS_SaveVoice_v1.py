@@ -107,8 +107,13 @@ class KokoroTTS_SaveVoice_v1:
             base_name = os.path.splitext(save_name)[0]
             file_path = os.path.join(customvoices_dir, f"{base_name}_{timestamp}.kkv")
         
-        # Save the blended voice using numpy.save (storing in .npy format with .kkv extension)
+        # Save the blended voice using numpy.save
         np.save(file_path, blended_voice)
+        
+        # Remove the .npy extension that numpy automatically adds
+        if os.path.exists(file_path + '.npy'):
+            os.rename(file_path + '.npy', file_path)
+            
         print(f"Voice saved to {file_path}")
         return (file_path,)
 

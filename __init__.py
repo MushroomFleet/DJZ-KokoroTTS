@@ -43,5 +43,12 @@ try:
 except ImportError:
     print("Unable to import KokoroTTS_LoadVoice_v1. This node will not be available.")
 
+try:
+    from .KokoroTTS_v5 import KokoroTTS_v5
+    NODE_CLASS_MAPPINGS["KokoroTTS_v5"] = KokoroTTS_v5
+    NODE_DISPLAY_NAME_MAPPINGS["KokoroTTS_v5"] = "Kokoro TTS v5 (Voice Shape Blender)"
+except ImportError:
+    print("Unable to import KokoroTTS_v5. This node will not be available.")
+
 
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
