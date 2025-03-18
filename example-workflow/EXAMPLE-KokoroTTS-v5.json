@@ -1,0 +1,749 @@
+{
+  "last_node_id": 24,
+  "last_link_id": 11,
+  "nodes": [
+    {
+      "id": 4,
+      "type": "PreviewAudio",
+      "pos": [
+        320,
+        -52.22007369995117
+      ],
+      "size": [
+        315,
+        88
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 2
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.26",
+        "Node name for S&R": "PreviewAudio"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 2,
+      "type": "PreviewAudio",
+      "pos": [
+        320,
+        160
+      ],
+      "size": [
+        315,
+        88
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 1
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.26",
+        "Node name for S&R": "PreviewAudio"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 15,
+      "type": "Label (rgthree)",
+      "pos": [
+        -720,
+        -260
+      ],
+      "size": [
+        1487.59765625,
+        100
+      ],
+      "flags": {
+        "allow_interaction": true
+      },
+      "order": 0,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [],
+      "title": "FiveBelowFive.UK | Drift Johnson",
+      "properties": {
+        "fontSize": 100,
+        "fontFamily": "Arial",
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "backgroundColor": "transparent",
+        "padding": 0,
+        "borderRadius": 0
+      },
+      "color": "#fff0",
+      "bgcolor": "#fff0"
+    },
+    {
+      "id": 14,
+      "type": "Label (rgthree)",
+      "pos": [
+        -720,
+        -420
+      ],
+      "size": [
+        841.9189453125,
+        150
+      ],
+      "flags": {
+        "allow_interaction": true
+      },
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Kokoro TTS ",
+      "properties": {
+        "fontSize": 150,
+        "fontFamily": "Arial",
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "backgroundColor": "transparent",
+        "padding": 0,
+        "borderRadius": 0
+      },
+      "color": "#fff0",
+      "bgcolor": "#fff0"
+    },
+    {
+      "id": 6,
+      "type": "PreviewAudio",
+      "pos": [
+        323.18035888671875,
+        413.48175048828125
+      ],
+      "size": [
+        315,
+        88
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 5
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.26",
+        "Node name for S&R": "PreviewAudio"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 21,
+      "type": "KokoroTTS_LoadVoice_v1",
+      "pos": [
+        -115.95790100097656,
+        1327.4947509765625
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "voice_shape",
+          "type": "VOICE",
+          "links": [
+            8
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "DJZ-KokoroTTS",
+        "ver": "255e40820d60e7e65eb541da8062aed85d7aa852",
+        "Node name for S&R": "KokoroTTS_LoadVoice_v1"
+      },
+      "widgets_values": [
+        "custom_voice.kkv"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "KokoroTTS_LoadVoice_v1",
+      "pos": [
+        -115.95790100097656,
+        1447.4947509765625
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "voice_shape",
+          "type": "VOICE",
+          "links": [
+            9
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "DJZ-KokoroTTS",
+        "ver": "255e40820d60e7e65eb541da8062aed85d7aa852",
+        "Node name for S&R": "KokoroTTS_LoadVoice_v1"
+      },
+      "widgets_values": [
+        "custom_voice.kkv"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "ShowText|pysssss",
+      "pos": [
+        310,
+        710
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "link": 11
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "shape": 6,
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "2c09d59ab5ac27ac59022832bfde4eeeb9c55825",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 20,
+      "type": "KokoroTTS_LoadVoice_v1",
+      "pos": [
+        -110,
+        1070
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "voice_shape",
+          "type": "VOICE",
+          "links": [
+            10
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "DJZ-KokoroTTS",
+        "ver": "255e40820d60e7e65eb541da8062aed85d7aa852",
+        "Node name for S&R": "KokoroTTS_LoadVoice_v1"
+      },
+      "widgets_values": [
+        "custom_voice.kkv"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "KokoroTTS_SaveVoice_v1",
+      "pos": [
+        -130,
+        730
+      ],
+      "size": [
+        315,
+        154
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "saved_path",
+          "type": "STRING",
+          "links": [
+            11
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "DJZ-KokoroTTS",
+        "ver": "255e40820d60e7e65eb541da8062aed85d7aa852",
+        "Node name for S&R": "KokoroTTS_SaveVoice_v1"
+      },
+      "widgets_values": [
+        "bm_lewis",
+        "em_santa",
+        "slerp",
+        0.7000000000000001,
+        "narrator-westwick1"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "KokoroTTS_v3",
+      "pos": [
+        -124.87110137939453,
+        411.46356201171875
+      ],
+      "size": [
+        315,
+        202
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            5
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "DJZ-KokoroTTS",
+        "ver": "255e40820d60e7e65eb541da8062aed85d7aa852",
+        "Node name for S&R": "KokoroTTS_v3"
+      },
+      "widgets_values": [
+        "the quick brown fox jumped over the lazy dog",
+        "bm_lewis",
+        "em_santa",
+        0.8,
+        0.8,
+        "slerp",
+        0.7000000000000001
+      ]
+    },
+    {
+      "id": 19,
+      "type": "KokoroTTS_v5",
+      "pos": [
+        261.34735107421875,
+        1338.9368896484375
+      ],
+      "size": [
+        441,
+        174
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "voice1",
+          "type": "VOICE",
+          "link": 8
+        },
+        {
+          "name": "voice2",
+          "type": "VOICE",
+          "link": 9
+        }
+      ],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "DJZ-KokoroTTS",
+        "ver": "255e40820d60e7e65eb541da8062aed85d7aa852",
+        "Node name for S&R": "KokoroTTS_v5"
+      },
+      "widgets_values": [
+        "the quick brown fox jumped over the lazy dog",
+        1,
+        1,
+        "default",
+        0.5
+      ]
+    },
+    {
+      "id": 18,
+      "type": "KokoroTTS_v4",
+      "pos": [
+        330,
+        1060
+      ],
+      "size": [
+        315,
+        82
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "voice",
+          "type": "VOICE",
+          "link": 10
+        }
+      ],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "DJZ-KokoroTTS",
+        "ver": "255e40820d60e7e65eb541da8062aed85d7aa852",
+        "Node name for S&R": "KokoroTTS_v4"
+      },
+      "widgets_values": [
+        "the quick brown fox jumped over the lazy dog",
+        1
+      ]
+    },
+    {
+      "id": 1,
+      "type": "KokoroTTS_v2",
+      "pos": [
+        -130,
+        160
+      ],
+      "size": [
+        315,
+        154
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            1
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "DJZ-KokoroTTS",
+        "ver": "255e40820d60e7e65eb541da8062aed85d7aa852",
+        "Node name for S&R": "KokoroTTS_v2"
+      },
+      "widgets_values": [
+        "the quick brown fox jumped over the lazy dog",
+        "af_alloy",
+        "af_aoede",
+        1,
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "type": "KokoroTTS_v1",
+      "pos": [
+        -140,
+        -52.599754333496094
+      ],
+      "size": [
+        315,
+        106
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            2
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "DJZ-KokoroTTS",
+        "ver": "255e40820d60e7e65eb541da8062aed85d7aa852",
+        "Node name for S&R": "KokoroTTS_v1"
+      },
+      "widgets_values": [
+        "the quick brown fox jumped over the lazy dog",
+        "af_alloy",
+        1
+      ]
+    },
+    {
+      "id": 16,
+      "type": "Note",
+      "pos": [
+        -719.7682495117188,
+        -109.52628326416016
+      ],
+      "size": [
+        420.25225830078125,
+        443.2101135253906
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "EXAMPLE-KokoroTTS-v5\n\nuse the toggle to enable one of the nodes.\n\n\nVideo: https://www.youtube.com/@FiveBelowFiveUK\nWorkflow: https://civitai.com/user/driftjohnson\nhttps://www.fivebelowfive.uk\n\n\n\n\n[discord early editions]\nhttps://discord.com/invite/uubQXhwzkj "
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 7,
+      "type": "Fast Groups Bypasser (rgthree)",
+      "pos": [
+        -610.1854248046875,
+        420.861572265625
+      ],
+      "size": [
+        252,
+        202
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "matchColors": "",
+        "matchTitle": "",
+        "showNav": true,
+        "sort": "position",
+        "customSortAlphabet": "",
+        "toggleRestriction": "default"
+      }
+    }
+  ],
+  "links": [
+    [
+      1,
+      1,
+      0,
+      2,
+      0,
+      "AUDIO"
+    ],
+    [
+      2,
+      3,
+      0,
+      4,
+      0,
+      "AUDIO"
+    ],
+    [
+      5,
+      10,
+      0,
+      6,
+      0,
+      "AUDIO"
+    ],
+    [
+      8,
+      21,
+      0,
+      19,
+      0,
+      "VOICE"
+    ],
+    [
+      9,
+      22,
+      0,
+      19,
+      1,
+      "VOICE"
+    ],
+    [
+      10,
+      20,
+      0,
+      18,
+      0,
+      "VOICE"
+    ],
+    [
+      11,
+      17,
+      0,
+      24,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "v2",
+      "bounding": [
+        -280.4108581542969,
+        85.65072631835938,
+        1050.8690185546875,
+        242.0654754638672
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "v1",
+      "bounding": [
+        -283.370849609375,
+        -143.01699829101562,
+        1053.867919921875,
+        207.8607635498047
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "v3",
+      "bounding": [
+        -276.7108154296875,
+        345.3995666503906,
+        1048.9371337890625,
+        256.1259460449219
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 4,
+      "title": "Save Custom Voices (slerp)",
+      "bounding": [
+        -272.3406066894531,
+        635.79345703125,
+        1044.4588623046875,
+        269.5497741699219
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 5,
+      "title": "V4",
+      "bounding": [
+        -266.22021484375,
+        955.831787109375,
+        1039.1883544921875,
+        247.79966735839844
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 6,
+      "title": "V5",
+      "bounding": [
+        -264.3993225097656,
+        1243.8001708984375,
+        1032.9886474609375,
+        289.2315368652344
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1.3513057093104504,
+      "offset": [
+        654.8675849545677,
+        -262.28489668594415
+      ]
+    },
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}
