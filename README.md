@@ -25,7 +25,7 @@ This node requires two specific models to work correctly.
   ```
   /comfyui/models/kokoro/
   ```
-- The model location is defined in the `models.json` configuration file. Please ensure that the models (e.g., the voice synthesis model and the text processing model) are exactly in this folder for the node to detect and load them properly.
+- The model location is defined in the `models.json` configuration file. Please ensure that the models (e.g., the voice synthesis model and the text processing model) are exactly in this folder for the node to detect and load them properly. https://github.com/taylorchu/kokoro-onnx/releases/download/v0.2.0/kokoro.onnx
 
 ## Usage 📖
 
