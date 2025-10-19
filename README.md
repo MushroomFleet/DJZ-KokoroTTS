@@ -61,3 +61,21 @@ Recent Updates:
 The KokoroTTS Node is a robust tool to add state-of-the-art text-to-speech capabilities to your image generation workflows. Follow the above steps to set up and enjoy seamless speech synthesis!
 
 Happy synthesizing! 😊
+
+## 📚 Citation
+
+### Academic Citation
+
+If you use this codebase in your research or project, please cite:
+
+```bibtex
+@software{djz_kokorottS,
+  title = {DJZ Kokoro TTS: Extended voice merging with DJZ Kokoro TTS nodes in ComfyUI},
+  author = {[Drift Johnson]},
+  year = {2025},
+  url = {https://github.com/MushroomFleet/DJZ-KokoroTTS},
+  version = {1.0.0}
+}
+```
+
+
